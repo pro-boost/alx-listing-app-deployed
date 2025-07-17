@@ -45,3 +45,11 @@ export interface Review {
   id: string;
   comment: string;
 }
+
+export interface BookingDetails {
+  propertyName: string;
+  startDate: string;
+  totalNights: number;
+  bookingFee: number;
+  price: number;
+}
