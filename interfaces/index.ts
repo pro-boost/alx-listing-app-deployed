@@ -40,3 +40,8 @@ export interface Offers {
     shower:    string;
     occupants: string;
 }
+
+export interface Review {
+  id: string;
+  comment: string;
+}
